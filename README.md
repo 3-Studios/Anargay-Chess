@@ -19,6 +19,5 @@ $bread (responds to other bot)
 ### normal commands
 ```
 $$echo [text]
-$$invite
 $$github
 ```

@@ -60,11 +60,6 @@ async def on_message(message):
 async def echo(ctx, *, arg):
     await ctx.send(arg)
 
-# $$invite
-@bot.command()
-async def invite(ctx):
-    await ctx.send('[invite me to your server](<https://discord.com/api/oauth2/authorize?client_id=1208444590475051088&permissions=274877910016&scope=bot>)')
-
 # $$github
 @bot.command()
 async def github(ctx):
