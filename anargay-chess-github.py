@@ -17,6 +17,8 @@ en_passant = ["google en passant", "holy hell", "new response just dropped", "ac
 async def on_ready():
     print(f'Logged in as {bot.user.name}')
     await bot.change_presence(activity=discord.Game(name=":3"))
+    for guild in bot.guilds:
+        await guild.me.edit(nick="Anargay Chess")
 
 @bot.event
 async def on_message(message):
