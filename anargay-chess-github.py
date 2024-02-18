@@ -8,7 +8,7 @@ from discord.ext import commands
 TOKEN = "TOKEN"
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='$$', intents=intents)
+bot = commands.Bot(command_prefix='en$', intents=intents)
 en_passant = ["google en passant", "holy hell", "new response just dropped", "actual zombie", "call the exorcist", "bishop goes on vacation, never comes back",
            "knightmare fuel", "pawn storm incoming", "checkmate or riot", "queen sacrifice, anyone", "rook in the corner, plotting world domination",
            "ignite the chessboard"]
@@ -20,7 +20,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.author == bot.user:
+    if message.author == bot.user or message.author.bot:
         return
 
     content = message.content.lower()

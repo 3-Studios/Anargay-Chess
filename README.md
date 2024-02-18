@@ -18,6 +18,6 @@ $bread (responds to other bot)
 
 ### normal commands
 ```
-$$echo [text]
-$$github
+en$echo [text]
+en$github
 ```
