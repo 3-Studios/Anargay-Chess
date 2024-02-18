@@ -2,7 +2,7 @@
 <h1 align="center">Anargay Chess</h1>
 google en passant :3
 
-[add me to your server](https://discord.com/api/oauth2/authorize?client_id=1208444590475051088&permissions=274877910016&scope=bot)
+[add me to your server](https://discord.com/api/oauth2/authorize?client_id=1208444590475051088&permissions=274945018880&scope=bot)
 
 
 <h2 align="center">Commands</h1>

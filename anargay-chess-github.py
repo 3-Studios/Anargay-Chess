@@ -3,7 +3,7 @@ import time
 import random
 from discord.ext import commands
 
-# invite me to your server: https://discord.com/api/oauth2/authorize?client_id=1208444590475051088&permissions=274877910016&scope=bot
+# invite me to your server: https://discord.com/api/oauth2/authorize?client_id=1208444590475051088&permissions=274945018880&scope=bot
 
 TOKEN = "TOKEN"
 intents = discord.Intents.default()
